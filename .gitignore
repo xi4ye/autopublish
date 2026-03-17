@@ -45,14 +45,15 @@ service.log
 
 # 输出文件
 output/
+result/
 
 # 数据文件
 data/*.json
 data/*.jsonl
 !data/.gitkeep
 
-# 示例文件保留
-!example/
+# 示例文件
+example/
 
 # Cookies 和敏感文件
 login_cookies.json
@@ -79,3 +80,9 @@ test_*.json
 username
 jrbd.docx
 image2.png
+
+# 空文件
+detailed_news_example_zh.json
+
+# 未使用的文件
+create_image_template.py
