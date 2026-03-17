@@ -1,0 +1,81 @@
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志文件
+logs/
+*.log
+service.log
+
+# 输出文件
+output/
+
+# 数据文件
+data/*.json
+data/*.jsonl
+!data/.gitkeep
+
+# 示例文件保留
+!example/
+
+# Cookies 和敏感文件
+login_cookies.json
+login_result.png
+*.pem
+*.key
+
+# 浏览器配置文件
+ChromeProfile/
+EdgeProfile/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Trae IDE
+.trae/
+
+# 测试文件
+test_*.py
+test_*.json
+
+# 临时文件
+username
+jrbd.docx
+image2.png
