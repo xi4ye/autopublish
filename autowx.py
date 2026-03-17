@@ -6,8 +6,8 @@ import os
 from bs4 import BeautifulSoup
 import datetime
 
-APPID = "wx0da589bbfe2dcc56"
-APPSECRET = "51d89de0816e73783ccfbfa798dbdabd"
+APPID = os.environ.get("WX_APP_ID", "")
+APPSECRET = os.environ.get("WX_APP_SECRET", "")
 
 
 def get_access_token(appid, appsecret):
